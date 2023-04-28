@@ -1,0 +1,98 @@
+/* For custom button */
+.custom-btn{
+    border-radius: 25px;
+    border:none;
+    transition: 0.2s ease-in-out;
+    padding: 6px 25px;
+    background: rgb(78,9,121);
+    background: linear-gradient(312deg, rgba(78,9,121,1) 0%, rgba(236,78,244,1) 100%);
+    /* button shadow */
+    box-shadow: 0px 7px 8px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(0,0,0,0.28);
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: small;
+
+    
+}
+/* 
+.custom-btn:hover{
+    background: red !important;
+    transition: 0.2s ease-in-out;
+    
+} */
+
+.custom-bg {
+    background: rgb(78,9,121);
+    background: -moz-linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    background: -webkit-linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    background: linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4e0979",endColorstr="#e100ec",GradientType=1);
+
+}
+.cstm-card-body {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.bg-none-color{
+    background: none;
+    border: none;
+    box-shadow: none;
+
+}
+ .cstm-shadow-bg {
+    box-shadow: 1px 3px 43px 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 1px 3px 43px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 3px 43px 5px rgba(0,0,0,0.6);
+}
+ /*Custom Form Design */
+/* Custom font for h2 */
+.cstm-font{
+    font-family: 'Montserrat', sans-serif !important;
+    text-shadow: 0px 3px 5px rgba(0,0,0,0.6);
+
+}
+/* custom form font */
+.form-font{
+    font-family: 'Montserrat', sans-serif !important; 
+
+}
+/* custom label */
+.cstom-label{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: small;
+
+}
+.border-checkbox > input:first-child:not(:checked):not(:disabled):hover + label::before,
+.border-checkbox > input:first-child:not(:checked):not(:disabled):hover + input[type="hidden"] + label::before {
+  border-color: #ec4ef4;
+}
+
+.border-checkbox > input:first-child:not(:checked):not(:disabled):focus + label::before,
+.border-checkbox > input:first-child:not(:checked):not(:disabled):focus + input[type="hidden"] + label::before {
+  border-color: #ec4ef4;
+}
+
+.border-checkbox > input:first-child:checked + label::before,
+.border-checkbox > input:first-child:checked + input[type="hidden"] + label::before {
+  background-color: #ec4ef4;
+  border-color: #ec4ef4;
+}
+
+/* custom topbar */
+
+.cstm-topbar {
+    background: rgb(78,9,121);
+    background: -moz-linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    background: -webkit-linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    background: linear-gradient(153deg, rgba(78,9,121,1) 0%, rgba(225,0,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4e0979",endColorstr="#e100ec",GradientType=1);
+}
+.os-content{
+    background: rgb(78,9,121);
+}
+
+/* custom navbar */
+.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]) {
+    background-color:  rgb(78,9,121);
+}
