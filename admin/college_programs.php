@@ -49,10 +49,10 @@
 	$(document).ready(function(){
 		$('#list').dataTable()
 		$('.new_class').click(function(){
-			uni_modal("New class","<?php echo $_SESSION['login_view_folder'] ?>manage_class.php")
+			uni_modal("Add Program","<?php echo $_SESSION['login_view_folder'] ?>manage_class.php")
 		})
 		$('.manage_class').click(function(){
-			uni_modal("Manage class","<?php echo $_SESSION['login_view_folder'] ?>manage_class.php?id="+$(this).attr('data-id'))
+			uni_modal("Manage Program","<?php echo $_SESSION['login_view_folder'] ?>manage_class.php?id="+$(this).attr('data-id'))
 		})
 	$('.delete_class').click(function(){
 	_conf("Are you sure to delete this class?","delete_class",[$(this).attr('data-id')])

@@ -50,7 +50,7 @@ $restriction = $conn->query("SELECT r.id,s.id as sid,f.id as fid,concat(f.firstn
 				<div class="card-body">
 					<fieldset class="border border-info p-2 w-100">
 					   <legend  class="w-auto">Rating Legend</legend>
-					   <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p>
+					   <p>1 = Strongly Agree, 2 = Agree, 3 = Uncertain, 4 = Disagree, 5 = Strongly Disagree</p>
 					</fieldset>
 					<form id="manage-evaluation">
 						<input type="hidden" name="class_id" value="<?php echo $_SESSION['login_class_id'] ?>">

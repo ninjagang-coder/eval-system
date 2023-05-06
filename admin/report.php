@@ -60,15 +60,16 @@ function ordinal_suffix($num){
 						<td width="50%"><p><b>Academic Year: <span id="ay"><?php echo $_SESSION['academic']['year'].' '.(ordinal_suffix($_SESSION['academic']['semester'])) ?> Semester</span></b></p></td>
 					</tr>
 					<tr>
-						<td width="50%"><p><b>Class: <span id="classField"></span></b></p></td>
-						<td width="50%"><p><b>Subject: <span id="subjectField"></span></b></p></td>
+						<td width="50%"><p><b>Program and Year: <span id="classField"></span></b></p></td>
+						<td width="50%"><p><b>College Department: <span id="subjectField"></span></b></p></td>
 					</tr>
 			</table>
 				<p class=""><b>Total Student Evaluated: <span id="tse"></span></b></p>
 			</div>
 				<fieldset class="border border-info p-2 w-100">
 				   <legend  class="w-auto">Rating Legend</legend>
-				   <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p>
+				   <p>1 = Strongly Agree, 2 = Agree, 3 = Uncertain, 4 = Disagree, 5 = Strongly Disagree</p>
+				   <!-- <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p> -->
 				</fieldset>
 				<?php 
 							$q_arr = array();

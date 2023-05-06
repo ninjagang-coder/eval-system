@@ -1,7 +1,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <div class="dropdown">
    	<a href="./" class="brand-link">
-        <h3 class="text-center p-0 m-0"><b>Admin Panel</b></h3>
+        <h3 class="text-center p-0 m-0"><b>Administrator</b></h3>
 
     </a>
       
@@ -115,7 +115,7 @@
             <a href="#" class="nav-link nav-edit_user">
               <i class="nav-icon fas fa-users"></i>
               <p>
-                Users
+                Admin Users
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>

@@ -58,7 +58,7 @@
 <script>
 	$(document).ready(function(){
 		$('.new_academic').click(function(){
-			uni_modal("New academic","<?php echo $_SESSION['login_view_folder'] ?>manage_academic.php")
+			uni_modal("New Academic Year","<?php echo $_SESSION['login_view_folder'] ?>manage_academic.php")
 		})
 		$('.manage_academic').click(function(){
 			uni_modal("Manage academic","<?php echo $_SESSION['login_view_folder'] ?>manage_academic.php?id="+$(this).attr('data-id'))

@@ -55,10 +55,10 @@
 <script>
 	$(document).ready(function(){
 		$('.new_subject').click(function(){
-			uni_modal("New subject","<?php echo $_SESSION['login_view_folder'] ?>manage_subject.php")
+			uni_modal("Add College Department","<?php echo $_SESSION['login_view_folder'] ?>manage_subject.php")
 		})
 		$('.manage_subject').click(function(){
-			uni_modal("Manage subject","<?php echo $_SESSION['login_view_folder'] ?>manage_subject.php?id="+$(this).attr('data-id'))
+			uni_modal("Manage College Department","<?php echo $_SESSION['login_view_folder'] ?>manage_subject.php?id="+$(this).attr('data-id'))
 		})
 	$('.delete_subject').click(function(){
 	_conf("Are you sure to delete this subject?","delete_subject",[$(this).attr('data-id')])
